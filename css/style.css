@@ -1,3 +1,6 @@
+:root {
+  --mintgreen: #B0CA87;
+}
 body {
   padding: 0px;
   margin: 0px;
@@ -5,6 +8,10 @@ body {
   overflow: hidden;
 }
 
+* {
+  background-color: var(--mintgreen);
+}
+  
 #map {
   height: 200px;
   width: 100vw;
